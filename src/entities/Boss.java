@@ -19,7 +19,7 @@ public class Boss extends EnemyEntity{
     int width, height;
     public static boolean isDead;
 	
-	double health=20,mana=75,xp=500,defense=15,str=9,intl=22, mr = 13,cons=20,acc=10,evs=2,initiative=10, maxHealth = 350, maxMana = 75;
+	double health=350,mana=75,xp=500,defense=15,str=9,intl=22, mr = 13,cons=20,acc=10,evs=2,initiative=10, maxHealth = 350, maxMana = 75;
 
     public Boss(Handler handler, int xPosition, int yPosition, String state, String name, String area) {
         super(handler, yPosition, yPosition,state,name,area,null);
